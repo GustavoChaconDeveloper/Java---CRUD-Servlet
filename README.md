@@ -6,3 +6,9 @@ JSP para a renderização de páginas web.
 Banco de dados (não especificado no código fornecido).
 Bootstrap para o layout da interface do usuário.
 Apache Tomcat
+
+![img1](https://github.com/GustavoChaconDeveloper/Java---CRUD-Servlet/assets/117042170/9161c6bc-6869-449d-8fd0-0b1262a85c54)
+![img2](https://github.com/GustavoChaconDeveloper/Java---CRUD-Servlet/assets/117042170/9693f407-f615-4a3e-ab84-c66358b67ec0)
+![img3](https://github.com/GustavoChaconDeveloper/Java---CRUD-Servlet/assets/117042170/fb27d2aa-935f-4267-8c86-fe4bb99bcf40)
+![img4](https://github.com/GustavoChaconDeveloper/Java---CRUD-Servlet/assets/117042170/16a6033b-9753-45b5-b512-ce91bfebd7b8)
+![img5](https://github.com/GustavoChaconDeveloper/Java---CRUD-Servlet/assets/117042170/36c3dd04-e56d-433c-bf5a-1748f5547d9d)
