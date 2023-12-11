@@ -1,0 +1,52 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.0
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1:3306
+-- Tempo de geração: 11-Dez-2023 às 22:45
+-- Versão do servidor: 8.0.31
+-- versão do PHP: 8.0.26
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Banco de dados: `academico`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `alunos`
+--
+
+DROP TABLE IF EXISTS `alunos`;
+CREATE TABLE IF NOT EXISTS `alunos` (
+  `ra` int UNSIGNED NOT NULL,
+  `nome` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `endereco` varchar(50) NOT NULL,
+  `datanascimento` date DEFAULT NULL,
+  `periodo` varchar(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci DEFAULT NULL,
+  PRIMARY KEY (`ra`) USING BTREE
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `alunos`
+--
+
+INSERT INTO `alunos` (`ra`, `nome`, `email`, `endereco`, `datanascimento`, `periodo`) VALUES
+(123455, 'Gustavo Chacon', 'gustavoalveschacon5@gmail.com', 'ggg', '2001-10-28', 'Tarde'),
+(123, 'ddd', 'gustavoalveschacon@hotmail.com', 'aa', '2001-10-28', 'Manhã');
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
