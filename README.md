@@ -1,5 +1,8 @@
-![img5](https://github.com/GustavoChaconDeveloper/Java---CRUD-Servlet/assets/117042170/6f3f9199-2a2c-4ce3-bffa-edbcdd9ff67f)
-![img4](https://github.com/GustavoChaconDeveloper/Java---CRUD-Servlet/assets/117042170/38754e32-0d3f-4e1d-8f70-ff0b09e8a4d4)
-![img3](https://github.com/GustavoChaconDeveloper/Java---CRUD-Servlet/assets/117042170/40510e12-d936-4dca-91d0-5c3834c67fbf)
-![img2](https://github.com/GustavoChaconDeveloper/Java---CRUD-Servlet/assets/117042170/e214bfe9-d72d-449f-bdb2-dacf6763a7dd)
-![img1](https://github.com/GustavoChaconDeveloper/Java---CRUD-Servlet/assets/117042170/1df2c73b-f193-4e0b-9e51-974437987d2e)
+O projeto, baseado em um CRUD, consiste em uma aplicação web Java desenvolvida como trabalho acadêmico para faculdade. Tem como objetivo gerenciar informações de alunos, utilizando Java Servlets e JSP para operações como cadastro, listagem, consulta individual, atualização e exclusão. A persistência de dados é realizada pela classe AlunoDAO, que interage com um banco de dados não especificado. A interface amigável é construída com Bootstrap, proporcionando uma experiência intuitiva aos usuários. O código-fonte está disponível para download e teste, permitindo referência e colaboração, sendo uma base expansível e personalizável para projetos relacionados ao gerenciamento de alunos.
+
+Tecnologias Utilizadas:
+Java Servlets para a lógica do lado do servidor.
+JSP para a renderização de páginas web.
+Banco de dados (não especificado no código fornecido).
+Bootstrap para o layout da interface do usuário.
+Apache Tomcat
